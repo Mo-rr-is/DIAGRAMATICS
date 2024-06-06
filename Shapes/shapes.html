@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MY SCENE</title>
+        <!-- css for 'Latin Modern Math' font -->
+        <link href="https://fonts.cdnfonts.com/css/latin-modern-math" rel="stylesheet">
+        <style>
+            .my-svg {
+                width: 200px;
+                height: 200px;
+                margin: 0px;
+            }
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 70vh;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- svg component to draw the diagram -->
+            <svg class="my-svg" id="mysvg"></svg>
+        </div>
+    </body>
+    <script src="shapes.js" type="module"></script>
+</html>
